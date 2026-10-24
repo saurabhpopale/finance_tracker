@@ -13,7 +13,7 @@ app.set("trust proxy", 1);
 const defaultOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
-  "https://dummy-finance-tracker.vercel.app",
+  "https://finance-tracker-frontend-blond.vercel.app",
 ];
 
 const envOrigins = process.env.FRONTEND_URL
